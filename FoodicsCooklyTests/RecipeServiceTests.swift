@@ -1,14 +1,13 @@
 //
-//  FoodicsCooklyTests.swift
+//  RecipeServiceTests.swift
 //  FoodicsCooklyTests
 //
 //  Created by Alaa Abu-Taha on 04/02/2025.
 //
 
 import XCTest
-@testable import FoodicsCookly
 
-final class FoodicsCooklyTests: XCTestCase {
+final class RecipeServiceTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

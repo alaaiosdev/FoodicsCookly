@@ -11,7 +11,7 @@ import SwiftUI
 struct FoodicsCooklyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView(viewModel: RecipeListViewModel(recipeService: APIRecipeService()))
         }
     }
 }
